@@ -32,19 +32,25 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: 15%;
   }
   #index-banner .section {
     top: 10%;
   }
   
 }
+@media only screen and (min-width:992px){
+  .parallax-container .section {
+    position: absolute;
+    top: 20%;
+  }
 
-@media only screen and (max-width : 600px) {
+}
+
+@media only screen and (max-width : 600px) { 
   #index-banner .section {
     top: 0;
   }
-  
 
 }
 
@@ -101,4 +107,18 @@ height: auto;
 
 #sidenav-overlay {
   z-index: 996;
+  }
+
+  .paint{
+    will-change: transform;
+  }
+
+  #img-section{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+  }
+
+  .mandarin-sorbete{
+    background-color: #ffb142;
   }
