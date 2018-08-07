@@ -54,6 +54,12 @@ p {
 
 }
 
+@media only screen and (max-width: 366px){
+  #btn-prog{
+    margin-top: 5%;
+  }
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -122,3 +128,5 @@ height: auto;
   .mandarin-sorbete{
     background-color: #ffb142;
   }
+
+  
